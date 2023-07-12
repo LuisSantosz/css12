@@ -57,7 +57,7 @@ body{
     position: absolute;
     padding: 2px;
     top: 33px;
-    right: 5%;
+    right: 8%;
     width: 160px;
 }
 
@@ -238,23 +238,21 @@ right: 10px;
 
 
 .r_termos{
-    font-family:'Times New Roman', Times, serif;
     position: relative;
     font-style: italic;
-    display: flex;
     font-size: 7px;
     left: 10px;
     top: 12px;
 }
 
 .r_texto{
-    font-family:'Times New Roman', Times, serif;
     position: relative;
+    font-family:'Courier New', Courier, monospace;
     font-style: italic;
     display: flex;
     font-size: 7px;
-    left: 450px;
-    top: 9px;
+    left: 440px;
+    top: 10px;
 }
 
 
