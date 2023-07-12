@@ -56,8 +56,7 @@ body{
     padding: 2px;
     top: 30px;
     right: 5%;
-    transition: all 2s;
-    width: 180px;
+    width: 155px;
 }
 
 .pesquisa{
@@ -66,7 +65,6 @@ body{
     border-radius: 10px;
     border: none;
     padding: 2%;
-    transition: all 2s;
     width: 100px;
     height: 20px;
 
@@ -82,6 +80,67 @@ body{
 display: absolute;
     position: absolute;
 	top: 12px; /*orientação para o topo do menu*/
-    left: 70px;
+    left: 75px;
 }
 /*FIM DO MENU*/
+
+/*Inicio do Slide*/
+.slide{
+background-color: #172339;
+display: flex;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+.img_slide{
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    align-items:end;
+    margin-top: 10px;
+    position: relative;
+    right: 60px;
+}
+
+.t1_slide{
+display: absolute;
+flex-direction: column;
+text-align: left;
+position: relative;
+left: 210px;
+bottom: 385px;
+font-size: 10px;
+color: white;
+flex-wrap: nowrap;
+
+}
+.t2_slide{
+    display: absolute;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+    left: 70px;
+    bottom: 275px;
+    font-size: 10px;
+    color: white;
+    }
+
+    .t3_slide{
+        display: absolute;
+        flex-direction: column;
+        text-align: left;
+        position: relative;
+        left: 115px;
+        bottom: 170px;
+        font-size: 10px;
+        color: white;
+        }
+
+    
+.video1{
+    display:absolute;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
