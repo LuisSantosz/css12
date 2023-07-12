@@ -175,7 +175,7 @@ bottom: 5px;
     justify-content: space-around;
 }
 
-.t_lancamento{ /*TOP 5 FILMES DA SEMANA*/
+.t_lancamento{ /*LANÇAMENTOS*/
     display: flex;
     justify-content: center;
     color: white;
@@ -184,3 +184,44 @@ bottom: 5px;
     bottom: 10px;
     font-size: 25px;
 }
+
+.trailers{
+    display: flex;
+    background-color: #172339;
+    padding: 40px;
+    
+
+}
+
+
+.t_trailers{ /*TRAILERS*/
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    bottom: 10px;
+    font-size: 25px;
+}
+
+.v_trailer1{
+display: absolute;
+position: relative;
+right: 10px;
+}
+
+.v_trailer2{
+    display: absolute;
+    position: relative;
+    left:15px;
+   
+    }
+
+.v_trailer3{
+    display: absolute;
+    position: relative;
+    left: 35px;
+    
+    }
+
+    
