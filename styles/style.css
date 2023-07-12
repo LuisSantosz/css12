@@ -238,17 +238,17 @@ right: 10px;
 
 
 .r_termos{
+    color: white;
     position: relative;
-    font-style: italic;
     font-size: 7px;
     left: 10px;
     top: 12px;
 }
 
 .r_texto{
+    color: white;
     position: relative;
     font-family:'Courier New', Courier, monospace;
-    font-style: italic;
     display: flex;
     font-size: 7px;
     left: 440px;
