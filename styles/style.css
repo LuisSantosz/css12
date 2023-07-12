@@ -19,6 +19,8 @@ body{
     justify-content:center;
     display: flex;
     gap: 100px; /*espaçamento entre as opções*/
+    font-size: 20px;
+    
 
 }
 
@@ -145,7 +147,7 @@ flex-wrap: nowrap;
 /*FIM DO SLIDE*/
 
 /*COMEÇO DO TOP*/
-.titulo_top_5{ /*TOP 5 FILMES DA SEMANA*/
+.t_top_5{ /*TOP 5 FILMES DA SEMANA*/
 display: flex;
 justify-content: center;
 color: white;
@@ -171,4 +173,14 @@ bottom: 5px;
 .info_top_5{
     display: flex;
     justify-content: space-around;
+}
+
+.t_lancamento{ /*TOP 5 FILMES DA SEMANA*/
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    bottom: 10px;
+    font-size: 25px;
 }
