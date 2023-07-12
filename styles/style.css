@@ -85,15 +85,13 @@ display: absolute;
 /*FIM DO MENU*/
 
 /*Inicio do Slide*/
-.slide{
+.slide{ /*editar o espaço do slide*/
 background-color: #172339;
 display: flex;
-margin-top: 10px;
-margin-bottom: 10px;
-
+margin-top: 15px;
 }
 
-.img_slide{
+.img_slide{ /*editar imagens*/
     flex-direction: column;
     display: flex;
     gap: 10px;
@@ -103,7 +101,7 @@ margin-bottom: 10px;
     right: 60px;
 }
 
-.t1_slide{
+.t1_slide{  /*info da primeira imagem*/
 display: absolute;
 flex-direction: column;
 text-align: left;
@@ -115,7 +113,7 @@ color: white;
 flex-wrap: nowrap;
 
 }
-.t2_slide{
+.t2_slide{ /*info da segunda imagem*/
     display: absolute;
     flex-direction: column;
     text-align: left;
@@ -126,7 +124,7 @@ flex-wrap: nowrap;
     color: white;
     }
 
-    .t3_slide{
+    .t3_slide{ /*info da terceira imagem*/
         display: absolute;
         flex-direction: column;
         text-align: left;
@@ -143,4 +141,34 @@ flex-wrap: nowrap;
     border: none;
     margin-top: 10px;
     margin-left: 10px;
+}
+/*FIM DO SLIDE*/
+
+/*COMEÇO DO TOP*/
+.titulo_top_5{ /*TOP 5 FILMES DA SEMANA*/
+display: flex;
+justify-content: center;
+color: white;
+margin-top: 10px;
+margin-bottom: 10px;
+bottom: 10px;
+font-size: 25px;
+
+
+
+}
+.top_5{ /*imagens dos filmes*/
+display: flex;
+background-color: #172339;
+margin-top: 5px;
+gap: 30px;
+justify-content: space-around;
+padding: 40px;
+bottom: 5px;
+
+}
+
+.info_top_5{
+    display: flex;
+    justify-content: space-around;
 }
