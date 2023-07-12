@@ -56,18 +56,19 @@ body{
     display: flex;
     position: absolute;
     padding: 2px;
-    top: 30px;
+    top: 33px;
     right: 5%;
-    width: 155px;
+    width: 160px;
 }
 
 .pesquisa{
     outline: none;
     text-align: center;
+    font-size: 15px;
     border-radius: 10px;
     border: none;
     padding: 2%;
-    width: 100px;
+    width: 140px;
     height: 20px;
 
 }
@@ -75,7 +76,7 @@ body{
 .pesquisa:focus{
     width: 10000px;
     right: 10000px;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 #logo{
