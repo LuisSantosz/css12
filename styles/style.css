@@ -38,7 +38,8 @@ body{
 
 }
 
-.contatos{
+.link_contatos{
+    color: white;
     padding: 15px;
     text-decoration: none;
     display: inline block;
@@ -237,10 +238,10 @@ right: 10px;
 
 
 
-.r_termos{
+.link_termos{
     color: white;
     position: relative;
-    font-size: 7px;
+    font-size: 13px;
     left: 10px;
     top: 12px;
 }

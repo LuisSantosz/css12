@@ -32,21 +32,22 @@ body{
     transition: background .4s;
 }
 
-.home:hover{
+.link_home:hover{
 
     background-color: #00295b;
     border-radius: 15px;
 
 }
 
-.contatos{
+.link_contatos{
+    color:white;
     padding: 15px;
     text-decoration: none;
     display: inline block;
     transition: background .4s;
 
 }
-.contatos:hover{
+.link_contatos:hover{
 
     background-color: #00295b;
     border-radius: 20px;
@@ -87,77 +88,61 @@ display: absolute;
     left: 75px;
 }
 
-.t_contato{
-margin-top: 10px;
+.info_dados{
+    margin-top: 10px;
 display: flex;
-color: white;
-justify-content: center;
 background-color: #172339;
-    padding: 10px;
+padding: 187px;
 }
 
-.dados{
+.t_dados{
+
+    display: flex;
+    position: absolute;
     background-color: #172339;
-display: flex;
-padding: 200px;
-}
-
-.nome{
-display: flex;
-position: absolute;
-justify-content: center;
-left: 50px;
-top: 180px;
-height: 30px;
-width: 250px;
-text-align: center;
-
-
-}
-
-.email{
-    display: flex;
-    position: absolute;
-    left: 380px;
-    top: 180px;
-    height: 30px;
-width: 250px;
-text-align: center;
-}
-
-.telefone{
-    display: flex;
-    position: absolute;
-    left: 700px;
-    top: 180px;
-    height: 30px;
-width: 250px;
-text-align: center;
-}
-
-.m_contato{
-    display: flex;
-    position: absolute;
+    color: white;
     justify-content: center;
-    left: 50px;
-    bottom: 280px;
-    height: 90px;
-width: 900px;
-text-align: center;
+    bottom: 450px;
+    right: 300px;
+    top: 110px;
 }
 
-.b_enviar{
+.termo{
+
     display: flex;
     position: absolute;
-    justify-content: center;
-    left: 450px;
-    bottom: 200px;
-    height: 30px;
-width: 100px;
+    color: white;
+    left: 40px;
+    top: 180px;
+}
 
+.t_termo{
+    display: flex;
+    position: absolute;
+    color: white;
+    top: 210px;
+    left: 43px;
+}
 
+.politica{
+
+    display: flex;
+    position: absolute;
+    color: white;
+    left: 40px;
+    top: 320px;
 
 }
+
+.t_politica{
+    font-style: bold;
+    display: flex;
+    position: absolute;
+    color: white;
+    top: 350px;
+    left: 45px;
+}
+
 
 
 .rodape{
@@ -176,7 +161,6 @@ width: 100px;
     left: 10px;
     top: 12px;
 }
-
 .r_texto{
     color: white;
     position: relative;

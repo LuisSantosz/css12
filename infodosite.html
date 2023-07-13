@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
-    <link rel="stylesheet" href="styles/contato.css">
+    <title>Infodosite</title>
+    <link rel="stylesheet" href="styles/infodosite.css">
 </head>
 <body>
         <!--Barra do menu-->
@@ -12,9 +12,9 @@
 
             <ul class="opcoes">
         
-            <a href="index.html" class="link_home">home</a>
+            <a href="index.html"class="link_home">home</a>
 
-            <li class="contatos">Contatos</li>
+            <a href="contato.html" class="link_contatos">Contatos</a>
             </ul>
             
             <div class="cx_pesquisa">
@@ -26,18 +26,26 @@
             
             </nav> <!--Fim do menu-->
 
-<section class="">
-<h1 class="t_contato">Fale conosco</h1>
-                <form class="dados"
->
-                    <input type="text" placeholder="NOME COMPLETO" required class="nome">  <!--required transforma o campo em obrigatório-->
-                    <input type="email" placeholder="E-MAIL" required class="email">
-                    <input type="tel" placeholder="TELEFONE" class="telefone">
-                    <textarea placeholder="EM QUE PODEMOS AJUDAR?" required class="m_contato"></textarea>
-                    <button type="submit" class="b_enviar">ENVIAR</button>
-                </form> 
+<section class="info_dados">
+<h1 class=" t_dados">Termos de uso e política de privacidade</h1>
 
-            </section>
+<details>
+    <summary class="termo">TERMOS DE USO</summary>
+    <p class="t_termo"> Seja bem-vindo ao Cloudfilms!,
+        estes termos e condições descrevem as regras de uso do site da empresa Cloudfilms, localizado no endereço https://luissantosz.github.io/css12/.
+        Ao acessar este site, consideramos que você está de acordo com os termos e condições abaixo.
+        Não continue a usar o Cloudfilms caso você discorde dos termos e condições descritos neste contrato.</p>
+</details>
+
+<details>
+    <summary class="politica">POLÍTICA DE PRIVACIDADE</summary>
+    <p class="t_politica">A sua privacidade é importante para nós. É política do CloudFilms respeitar a  sua privacidade 
+        em relação a qualquer informação sua que possamos coletar no site CloudFilms, e outros sites que possuímos e operamos.</p>
+</details>
+
+
+
+</section>
 
 
             <footer class="rodape">
@@ -47,7 +55,6 @@
                 <img src="image/insta_preto.png" width="40" height="40" alt="logo instagram">
             
                 <div class="r_termos">
-
                 <a href="infodosite.html" class="link_termos">Termos e Política</a>
             </div>
             
